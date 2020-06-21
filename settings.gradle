@@ -1,0 +1,3 @@
+include ':PaytmChecksum'
+include ':app'
+rootProject.name = "PayTMPaymentGatewayDemo"
