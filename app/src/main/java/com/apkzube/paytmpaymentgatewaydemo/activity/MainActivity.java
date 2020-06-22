@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
 
-                    transactionManager.setAppInvokeEnabled(false);
+                    //transactionManager.setAppInvokeEnabled(false);
                     transactionManager.startTransaction(MainActivity.this, REQ_CODE_ORDER);
 
                 }else {
